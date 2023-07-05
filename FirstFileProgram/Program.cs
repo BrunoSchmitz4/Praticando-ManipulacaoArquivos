@@ -11,13 +11,17 @@ namespace FirstFileProgram
         static void Main(string[] args)
         {
 
+            
+        }
+        static void aprendizado()
+        {
             // Classes Directory e DirectoryInfo
             // Também fazem parte do namespace system.IO
             // Contém operações com pastas, como: create, enumerate, get files etc...
 
             // As mesmas regras de Files (membros estáticos, verificação de segurança etc)
             // valem para Directory. E as mesmas regras de FileInfo valem para DirectoryInfo
-            
+
             string path = @"C:\Users\OS0050\Documents\myFolder\file1.txt";
             string sourcePath = @"C:\Users\OS0050\Documents\file1.txt";
             string targetPath = @"C:\Users\OS0050\Documents\file2.txt";
@@ -57,5 +61,10 @@ namespace FirstFileProgram
             Console.WriteLine("Método GetFullPath: " + Path.GetFullPath(path));
             Console.WriteLine("Método GetTempPath: " + Path.GetTempPath());
         }
-    }
+
+        static void exerFixacao()
+        {
+            Console.WriteLine("Fazer mais tarde :)");
+        }
+    }    
 }
