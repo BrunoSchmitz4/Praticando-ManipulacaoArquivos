@@ -64,7 +64,20 @@ namespace FirstFileProgram
 
         static void exerFixacao()
         {
-            Console.WriteLine("Fazer mais tarde :)");
+            Console.WriteLine("Ensira o caminho completo do arquivo: ");
+            string path = Console.ReadLine();
+
+            try
+            {
+
+            }catch (IOException ex)
+            {
+                Console.WriteLine("Um erro ocorreu: " + ex.Message);
+            }
+            finally
+            {
+
+            }
         }
     }    
 }
