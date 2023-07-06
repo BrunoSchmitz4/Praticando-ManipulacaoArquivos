@@ -10,7 +10,7 @@ namespace FirstFileProgram
     {
         static void Main(string[] args)
         {
-
+            aprendizado();
             
         }
         static void aprendizado()
@@ -52,14 +52,14 @@ namespace FirstFileProgram
             // Classe Path
             // Realiza operações com strins que contém informãções de arquivos ou pastas.
 
-            Console.WriteLine("Método GetDirectoryName: " + Path.GetDirectoryName(path));
+            //Console.WriteLine("Método GetDirectoryName: " + Path.GetDirectoryName(path));
             Console.WriteLine("Método DirectorySeparatorChar: " + Path.DirectorySeparatorChar);
             Console.WriteLine("Método PathSeparator: " + Path.PathSeparator);
-            Console.WriteLine("Método GetFileName: " + Path.GetFileName(path));
-            Console.WriteLine("Método GetFileNameWithoutExtension: " + Path.GetFileNameWithoutExtension(path));
-            Console.WriteLine("Método GetExtension: " + Path.GetExtension(path));
-            Console.WriteLine("Método GetFullPath: " + Path.GetFullPath(path));
-            Console.WriteLine("Método GetTempPath: " + Path.GetTempPath());
+            //Console.WriteLine("Método GetFileName: " + Path.GetFileName(path));
+            //Console.WriteLine("Método GetFileNameWithoutExtension: " + Path.GetFileNameWithoutExtension(path));
+            //Console.WriteLine("Método GetExtension: " + Path.GetExtension(path));
+            //Console.WriteLine("Método GetFullPath: " + Path.GetFullPath(path));
+            //Console.WriteLine("Método GetTempPath: " + Path.GetTempPath());
         }
 
         static void exerFixacao()
